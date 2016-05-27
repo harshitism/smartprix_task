@@ -6,5 +6,5 @@ Components Used :
 2. Asyn Task for Network calls and image download.
 3. Singleton Class 
 
-Total Man Hour Used  : 8 Hrs 
-Tools Used : Android Studio 
+Total Man Hour : 8 Hrs 
+
