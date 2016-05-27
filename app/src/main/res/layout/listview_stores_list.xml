@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/store_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:id="@+id/store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Croma"
+        android:textColor="@color/Grey900"
+        android:layout_toRightOf="@+id/store_logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs 123"
+        android:id="@+id/store_price"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/store_logo"
+        android:layout_below="@+id/store_name"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/others"
+        android:text="Rating:70 / InStock / Rs 30 Shipping Charges"
+        android:layout_below="@+id/store_logo"
+        android:textSize="12dp"
+        android:textColor="@color/Green500"
+        />
+
+    <Button
+        android:id="@+id/buy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_blue_filled_noborder"
+        android:text="BUY"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+
+
+        />
+
+
+
+</RelativeLayout>

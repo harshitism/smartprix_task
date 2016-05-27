@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.android.smartprix.activity.HomeActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/search_layout"
+            android:background="@android:color/white"
+            >
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="SEARCH"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/custom_button_blue_filled_noborder"
+                />
+
+            <EditText
+                android:id="@+id/search_query"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/search_button"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <Button
+                android:id="@+id/previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/borderlessButtonStyle"
+                android:text="&lt; Prev"
+                android:textColor="@color/Grey600"
+                android:textSize="12sp"
+                android:layout_alignParentLeft="true"
+                />
+            
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category:ALL"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/Grey900"
+                android:layout_centerInParent="true"
+                />
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/borderlessButtonStyle"
+                android:text="Next &gt;"
+                android:textColor="@color/Grey600"
+                android:textSize="12sp"
+                android:layout_alignParentRight="true"
+                />
+            
+        </RelativeLayout>
+        
+        <FrameLayout
+            android:background="@android:color/white"
+            android:id="@+id/main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/navdrawer"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="false">
+    </ListView>
+    </android.support.v4.widget.DrawerLayout>

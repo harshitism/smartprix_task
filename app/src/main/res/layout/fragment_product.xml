@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:id="@+id/product_name"
+        android:textSize="18sp"
+        android:textColor="@color/Grey900"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Grey100"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/product_best_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Price : Rs 0"
+            android:textColor="@color/Grey800"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/stores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available at 0 stores"
+            android:textSize="12sp"
+
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/stores_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+</LinearLayout>

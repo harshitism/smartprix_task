@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#212121</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="white"  >#FFFFFF</color>
+
+    <color name="Grey50"  >#FAFAFA</color>
+    <color name="Grey100"  >#F5F5F5</color>
+    <color name="Grey200"  >#EEEEEE</color>
+    <color name="Grey300"  >#E0E0E0</color>
+    <color name="Grey400"  >#BDBDBD</color>
+    <color name="Grey500"  >#9E9E9E</color>
+    <color name="Grey600"  >#757575</color>
+    <color name="Grey700"  >#616161</color>
+    <color name="Grey800"  >#424242</color>
+    <color name="Grey900"  >#212121</color>
+
+
+    <color name="Red50"  >#FFEBEE</color>
+    <color name="Red100"  >#FFCDD2</color>
+    <color name="Red200"  >#EF9A9A</color>
+    <color name="Red300"  >#E57373</color>
+    <color name="Red400"  >#EF5350</color>
+    <color name="Red500"  >#F44336</color>
+    <color name="Red600"  >#E53935</color>
+    <color name="Red700"  >#D32F2F</color>
+    <color name="Red800"  >#C62828</color>
+    <color name="Red900"  >#B71C1C</color>
+
+    <color name="Green50"  >#E8F5E9</color>
+    <color name="Green100"  >#C8E6C9</color>
+    <color name="Green200"  >#A5D6A7</color>
+    <color name="Green300"  >#81C784</color>
+    <color name="Green400"  >#66BB6A</color>
+    <color name="Green500"  >#4CAF50</color>
+    <color name="Green600"  >#43A047</color>
+    <color name="Green700"  >#388E3C</color>
+    <color name="Green800"  >#2E7D32</color>
+    <color name="Green900"  >#1B5E20</color>
+
+    <color name="Amber50"  >#FFF8E1</color>
+    <color name="Amber100"  >#FFECB3</color>
+    <color name="Amber200"  >#FFE082</color>
+    <color name="Amber300"  >#FFD54F</color>
+    <color name="Amber400"  >#FFCA28</color>
+    <color name="Amber500"  >#FFC107</color>
+    <color name="Amber600"  >#FFB300</color>
+    <color name="Amber700"  >#FFA000</color>
+    <color name="Amber800"  >#FF8F00</color>
+    <color name="Amber900"  >#FF6F00</color>
+
+    <color name="Blue50"  >#E3F2FD</color>
+    <color name="Blue100"  >#BBDEFB</color>
+    <color name="Blue200"  >#90CAF9</color>
+    <color name="Blue300"  >#64B5F6</color>
+    <color name="Blue400"  >#42A5F5</color>
+    <color name="Blue500"  >#2196F3</color>
+    <color name="Blue600"  >#1E88E5</color>
+    <color name="Blue700"  >#1976D2</color>
+    <color name="Blue800"  >#1565C0</color>
+    <color name="Blue900"  >#0D47A1</color>
+
+</resources>
